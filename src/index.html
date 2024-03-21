@@ -309,7 +309,9 @@
         <section id="contacts" class="relative bg-[#111739] py-[40px] sm:py-[80px]">
           <img src="./img/footer-bg.webp" alt="Контакти" class="absolute right-0 top-0 h-full object-cover" />
           <div class="container relative z-10">
-            <div class="mb-[30px] sm:mb-[40px]">
+            <div class="mb-[30px] sm:mb-[40px] relative">
+              <img src="./img/arrow.svg" alt="Замовляйте водійські права з гарантією." class="hidden xl:block absolute right-[26%] -top-12">
+              <img src="./img/arrow-mob.svg" alt="Замовляйте водійські права з гарантією." class="block xl:hidden absolute -right-10 -top-2 max-sm:h-[260px] sm:right-0 sm:top-0 lg:right-[20%] lg:-top-6">
               <div class="mb-5 sm:mb-8 flex items-center gap-x-5 max-lg:justify-center">
                 <span class="block h-[1px] w-[60px] bg-primary lg:hidden"></span>
                 <h1 class="text-base font-bold uppercase text-primary sm:text-xl">Контакти</h1>
@@ -317,7 +319,7 @@
               </div>
               <p class=" text-base font-bold text-white max-lg:text-center  sm:text-4xl">Замовляйте водійські права з гарантією.</p>
             </div>
-            <div class="flex flex-col items-center justify-between gap-x-10 lg:flex-row">
+            <div class="flex flex-col max-lg:items-center justify-between gap-x-10 xl:flex-row">
               <div>
                 <p class="mb-5 text-lg font-bold text-primary sm:text-3xl">Швидко потрібні права?</p>
                 <ul class="list-disc space-y-3 marker:text-primary pl-4">
@@ -330,7 +332,7 @@
                 <a
                   href="#"
                   class="group inline-flex h-[60px] max-sm:w-full items-center  max-sm:border-white max-sm:text-white justify-center space-x-2.5 rounded-[10px] border border-primary bg-primary/0 px-[10px] text-sm text-primary transition-colors hover:bg-primary hover:text-white sm:h-[72px] sm:px-[27px] sm:text-lg">
-                  <span>Замовити через Telegram</span>
+                  <span class="whitespace-nowrap">Замовити через Telegram</span>
                   <svg class="size-6 text-primary transition-colors group-hover:text-white max-sm:text-white">
                     <use href="./sprites/sprite.svg#icon-tg"></use>
                   </svg>
@@ -338,7 +340,7 @@
                 <a
                   href="#"
                   class="group inline-flex h-[60px] max-sm:w-full items-center max-sm:border-white max-sm:text-white justify-center space-x-2.5 rounded-[10px] border border-primary bg-primary/0 px-[10px] text-sm text-primary transition-colors hover:bg-primary hover:text-white sm:h-[72px] sm:px-[27px] sm:text-lg">
-                  <span>Замовити через Viber</span>
+                  <span class="whitespace-nowrap">Замовити через Viber</span>
                   <svg class="size-6 text-primary transition-colors  group-hover:text-white max-sm:text-white">
                     <use href="./sprites/sprite.svg#icon-vb"></use>
                   </svg>
