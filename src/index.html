@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="uk">
+  @@include('components/head.html', { 'title': 'Головна' })
+  <body>
+    <div class="relative flex min-h-screen flex-col overflow-hidden">
+      @@include('components/header.html', { })
+      <main>
+        <section class="relative overflow-hidden pb-[100px] pt-[161px] lg:pb-[219px] lg:pt-[261px]">
+          <img src="./img/hero-bg.webp" alt="Державні послуги в онлайні." class="absolute left-0 top-0 h-full w-full object-cover" />
+          <div class="container">
+            <div class="relative z-10 max-w-[570px]">
+              <h1 data-aos="fade-up" data-aos-delay="50" class="mb-[33px] text-3xl font-extrabold !leading-tight text-white sm:mb-[35px] sm:text-[54px]">Оформіть водійські права <span class="text-primary underline">онлайн</span></h1>
+              <p data-aos="fade-up" data-aos-delay="100" class="mb-5 text-2xl font-bold text-white sm:mb-[45px] sm:text-[42px]">З внесенням даних в базу.</p>
+              <p class="text-base font-bold text-white sm:text-2xl">Отримайте водійські права швидко та зручно через Інтернет протягом 10 днів.</p>
+              <div class="mt-6 flex flex-col gap-x-[35px] gap-y-5 sm:mt-[35px] sm:flex-row ">
+                <a href="#" class="inline-flex h-[60px] items-center justify-center space-x-2.5 rounded-[10px] border border-white bg-primary/0 px-[10px] text-sm text-white transition-colors hover:bg-primary/20 sm:h-[62px] sm:px-[27px] sm:text-lg">
+                  <span>Вартість Telegram</span>
+                  <svg class="size-6">
+                    <use href="./sprites/sprite.svg#icon-tg"></use>
+                  </svg>
+                </a>
+                <a href="#" class="inline-flex h-[60px] items-center justify-center space-x-2.5 rounded-[10px] border border-white bg-primary/0 px-[10px] text-sm text-white transition-colors hover:bg-primary/20 sm:h-[62px] sm:px-[27px] sm:text-lg">
+                  <span>Вартість Viber</span>
+                  <svg class="size-6">
+                    <use href="./sprites/sprite.svg#icon-vb"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="services" class="py-[30px] sm:py-[80px]">
+          <div class="container">
+            <div class="mx-auto flex max-w-[956px] flex-col items-center">
+              <div class="mb-8 flex items-center gap-x-5">
+                <span class="h-[1px] w-[60px] bg-primary"></span>
+                <h1 class="text-center text-base font-bold uppercase leading-loose text-primary sm:text-xl">Тарифи</h1>
+                <span class="h-[1px] w-[60px] bg-primary"></span>
+              </div>
+              <p class="mb-[30px] text-center text-base !leading-normal font-bold text-typo-dark sm:mb-[60px] sm:text-4xl">Ознайомтеся з нашими тарифами та категоріями, які доступні для отримання онлайн.</p>
+            </div>
+            <div class="grid grid-cols-1 gap-5 sm:grid-cols-6">
+              <div class="group flex flex-col rounded-[5px] border border-gray-900/50 p-5 transition-colors hover:border-primary hover:bg-primary sm:col-span-6 lg:col-span-2">
+                <div class="mb-[15px] flex items-center justify-between sm:mb-[30px]">
+                  <div class="flex size-[57px] items-center justify-center rounded-full border border-typo-dark bg-typo-dark group-hover:border-white group-hover:bg-primary sm:size-[90px]">
+                    <img src="./img/icon-1.svg" alt="КАТЕГОРІЯ В, В1" class="w-[70%]" />
+                  </div>
+                  <p class="text-right text-4xl font-black text-typo-dark/5 sm:text-5xl">В, В1</p>
+                </div>
+                <p class="mb-[15px] text-lg font-semibold text-typo-dark transition-colors group-hover:text-white sm:mb-[25px] sm:text-xl">КАТЕГОРІЯ В, В1</p>
+                <p class="grow text-xs text-typo-dark transition-colors group-hover:text-white sm:text-base">В категорії B1 дозволяється керувати трициклами та квадроциклами масою до 400 кг.</p>
+                <a
+                  href="#"
+                  class="mt-[15px] flex h-[56px] w-full max-w-[219px] items-center justify-center rounded-[10px] border border-transparent bg-primary text-base font-semibold text-white transition-colors hover:border-primary hover:bg-white hover:text-primary group-hover:bg-white group-hover:text-primary sm:mt-[25px] sm:text-lg"
+                  >Замовити послугу</a
+                >
+              </div>
+              <div class="group flex flex-col rounded-[5px] border border-gray-900/50 p-5 transition-colors hover:border-primary hover:bg-primary sm:col-span-3 lg:col-span-2">
+                <div class="mb-[15px] flex items-center justify-between sm:mb-[30px]">
+                  <div class="flex size-[57px] items-center justify-center rounded-full border border-typo-dark bg-typo-dark group-hover:border-white group-hover:bg-primary sm:size-[90px]">
+                    <img src="./img/icon-2.svg" alt="КАТЕГОРІЯ С, С1" class="w-[70%]" />
+                  </div>
+                  <p class="text-right text-4xl font-black text-typo-dark/5 sm:text-5xl">С, С1</p>
+                </div>
+                <p class="mb-[15px] text-lg font-semibold text-typo-dark transition-colors group-hover:text-white sm:mb-[25px] sm:text-xl">КАТЕГОРІЯ С, С1</p>
+                <p class="grow text-xs text-typo-dark transition-colors group-hover:text-white sm:text-base">Категорія С дозволяє керувати повноцінними вантажними автомобілями.</p>
+                <a
+                  href="#"
+                  class="mt-[15px] flex h-[56px] w-full max-w-[219px] items-center justify-center rounded-[10px] border border-transparent bg-primary text-base font-semibold text-white transition-colors hover:border-primary hover:bg-white hover:text-primary group-hover:bg-white group-hover:text-primary sm:mt-[25px] sm:text-lg"
+                  >Замовити послугу</a
+                >
+              </div>
+              <div class="group flex flex-col rounded-[5px] border border-gray-900/50 p-5 transition-colors hover:border-primary hover:bg-primary sm:col-span-3 lg:col-span-2">
+                <div class="mb-[15px] flex items-center justify-between sm:mb-[30px]">
+                  <div class="flex size-[57px] items-center justify-center rounded-full border border-typo-dark bg-typo-dark group-hover:border-white group-hover:bg-primary sm:size-[90px]">
+                    <img src="./img/icon-3.svg" alt="КАТЕГОРІЯ А ТА А1" class="w-[70%]" />
+                  </div>
+                  <p class="text-right text-4xl font-black text-typo-dark/5 sm:text-5xl">А, А1</p>
+                </div>
+                <p class="mb-[15px] text-lg font-semibold text-typo-dark transition-colors group-hover:text-white sm:mb-[25px] sm:text-xl">КАТЕГОРІЯ А ТА А1</p>
+                <p class="grow text-xs text-typo-dark transition-colors group-hover:text-white sm:text-base">Категорія А1 дозволяє керувати мопедами, моторолерами та скутерами.</p>
+                <a
+                  href="#"
+                  class="mt-[15px] flex h-[56px] w-full max-w-[219px] items-center justify-center rounded-[10px] border border-transparent bg-primary text-base font-semibold text-white transition-colors hover:border-primary hover:bg-white hover:text-primary group-hover:bg-white group-hover:text-primary sm:mt-[25px] sm:text-lg"
+                  >Замовити послугу</a
+                >
+              </div>
+              <div class="group flex flex-col rounded-[5px] border border-gray-900/50 p-5 transition-colors hover:border-primary hover:bg-primary sm:col-span-3">
+                <div class="mb-[15px] flex items-center justify-between sm:mb-[30px]">
+                  <div class="flex size-[57px] items-center justify-center rounded-full border border-typo-dark bg-typo-dark group-hover:border-white group-hover:bg-primary sm:size-[90px]">
+                    <img src="./img/icon-4.svg" alt="КАТЕГОРІЯ D" class="w-[70%]" />
+                  </div>
+                  <p class="text-right text-4xl font-black text-typo-dark/5 sm:text-5xl">D</p>
+                </div>
+                <p class="mb-[15px] text-lg font-semibold text-typo-dark transition-colors group-hover:text-white sm:mb-[25px] sm:text-xl">КАТЕГОРІЯ D</p>
+                <p class="grow text-xs text-typo-dark transition-colors group-hover:text-white sm:text-base">Категорія Д допускає до керування автобусами.</p>
+                <a
+                  href="#"
+                  class="mt-[15px] flex h-[56px] w-full max-w-[219px] items-center justify-center rounded-[10px] border border-transparent bg-primary text-base font-semibold text-white transition-colors hover:border-primary hover:bg-white hover:text-primary group-hover:bg-white group-hover:text-primary sm:mt-[25px] sm:text-lg"
+                  >Замовити послугу</a
+                >
+              </div>
+              <div class="group flex flex-col rounded-[5px] border border-gray-900/50 p-5 transition-colors hover:border-primary hover:bg-primary sm:col-span-3">
+                <div class="mb-[15px] flex items-center justify-between sm:mb-[30px]">
+                  <div class="flex size-[57px] items-center justify-center rounded-full border border-typo-dark bg-typo-dark group-hover:border-white group-hover:bg-primary sm:size-[90px]">
+                    <img src="./img/icon-5.svg" alt="КАТЕГОРІЯ E" class="w-[70%]" />
+                  </div>
+                  <p class="text-right text-4xl font-black text-typo-dark/5 sm:text-5xl">E</p>
+                </div>
+                <p class="mb-[15px] text-lg font-semibold text-typo-dark transition-colors group-hover:text-white sm:mb-[25px] sm:text-xl">КАТЕГОРІЯ E</p>
+                <p class="grow text-xs text-typo-dark transition-colors group-hover:text-white sm:text-base">Категорія E дозволяє керувати транспортними засобами з причепом масою понад певне значення.</p>
+                <a
+                  href="#"
+                  class="mt-[15px] flex h-[56px] w-full max-w-[219px] items-center justify-center rounded-[10px] border border-transparent bg-primary text-base font-semibold text-white transition-colors hover:border-primary hover:bg-white hover:text-primary group-hover:bg-white group-hover:text-primary sm:mt-[25px] sm:text-lg"
+                  >Замовити послугу</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="bg-gray-100/50 py-[30px] sm:py-[80px]">
+          <div class="container flex gap-x-[60px]">
+            <div class="w-full max-lg:hidden lg:w-1/2">
+              <img src="./img/about-image.webp" alt="Про нас" class="h-full w-full object-cover" />
+            </div>
+            <div class="w-full lg:w-1/2">
+              <div class="mb-8 flex items-center gap-x-5 max-lg:justify-center">
+                <span class="block h-[1px] w-[60px] bg-primary lg:hidden"></span>
+                <h1 class="text-center text-base font-bold uppercase text-primary sm:text-xl">Про нас</h1>
+                <span class="h-[1px] w-[60px] bg-primary"></span>
+              </div>
+              <p class="mb-[30px] text-base font-bold !leading-normal text-typo-dark max-lg:text-center sm:mb-10 sm:text-4xl">Отримайте водійські права без зайвих зусиль.</p>
+              <ul class="mb-[30px] list-disc space-y-5 pl-4 marker:text-primary sm:mb-10">
+                <li class="text-sm text-typo-light sm:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                <li class="text-sm text-typo-light sm:text-base">Etiam non leo nec ligula</li>
+                <li class="text-sm text-typo-light sm:text-base">Vestibulum iaculis libero</li>
+                <li class="text-sm text-typo-light sm:text-base">Mauris egestas nunc sed maximus laoreet.</li>
+                <li class="text-sm text-typo-light sm:text-base">Nulla vehicula mattis lacus, eget posuere</li>
+              </ul>
+              <a
+                href="#"
+                class="flex h-[53px] w-full max-w-[272px] items-center justify-center rounded-[10px] border border-transparent bg-primary text-base font-semibold text-white transition-colors hover:border-primary hover:bg-white hover:text-primary max-sm:mx-auto sm:h-[73px] sm:text-lg"
+                >Отримати консультацію</a
+              >
+            </div>
+          </div>
+        </section>
+
+        <section id="comments" class="pt-[30px] pb-[60px] lg:py-[120px]">
+          <div class="mx-auto flex max-w-[956px] flex-col items-center">
+            <div class="mb-8 flex items-center gap-x-5">
+              <span class="h-[1px] w-[60px] bg-primary"></span>
+              <h1 class="text-center text-base font-bold uppercase leading-loose text-primary sm:text-xl">Відгуки</h1>
+              <span class="h-[1px] w-[60px] bg-primary"></span>
+            </div>
+            <p class="mb-[30px] text-center text-base font-bold text-typo-dark sm:mb-[60px] sm:text-4xl">Що про нас говорять наші клієнти</p>
+          </div>
+
+          <div class="slider container">
+            <div data-aos="fade-up" class="mx-auto max-w-[1350px] px-4">
+              <div class="relative">
+                <button
+                  class="comments-prev group absolute -left-16 top-1/2 z-10 flex size-[37px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-transparent bg-typo-dark shadow-md transition-colors hover:border-primary hover:bg-primary [&.swiper-button-lock]:hidden"
+                  type="button"
+                  aria-label="Попередній слайд">
+                  <svg class="size-6 rotate-180 text-white/80 transition-colors group-hover:text-white">
+                    <use href="./sprites/sprite.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+                <button
+                  class="comments-next group absolute -right-16 top-1/2 z-10 flex size-[37px] -translate-y-1/2 translate-x-1/2 items-center justify-center rounded-full border border-transparent bg-typo-dark shadow-md transition-colors hover:border-primary hover:bg-primary [&.swiper-button-lock]:hidden"
+                  type="button"
+                  aria-label="Наступний слайд">
+                  <svg class="size-6 text-white/80 transition-colors group-hover:text-white">
+                    <use href="./sprites/sprite.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+                <div class="comments-slider mx-auto w-full overflow-hidden">
+                  <div class="comments-slider-wrapper flex w-full">
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox="Відгуки" href="./img/dialog1.webp" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/dialog1.webp" alt="Коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox="Відгуки" href="./img/dialog2.webp" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/dialog2.webp" alt="Коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox="Відгуки" href="./img/dialog3.webp" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/dialog3.webp" alt="Коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox="Відгуки" href="./img/dialog4.webp" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/dialog4.webp" alt="Коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox="Відгуки" href="./img/dialog1.webp" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/dialog1.webp" alt="Коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox="Відгуки" href="./img/dialog2.webp" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/dialog2.webp" alt="Коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox="Відгуки" href="./img/dialog3.webp" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/dialog3.webp" alt="Коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox="Відгуки" href="./img/dialog4.webp" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/dialog4.webp" alt="Коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pagination-comments mt-[40px] flex justify-center space-x-[20px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[3px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 sm:[&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:size-[11px] [&>.swiper-pagination-bullet]:bg-gray-200 [&>.swiper-pagination-bullet]:opacity-90"></div>
+            </div>
+          </div>
+
+          <div class="slider container mt-[60px]">
+            <div data-aos="fade-up" class="mx-auto max-w-[1350px] px-4">
+              <div class="relative">
+                <button
+                  class="comments-prev group absolute -left-16 top-1/2 z-10 flex size-[37px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border border-transparent bg-typo-dark shadow-md transition-colors hover:border-primary hover:bg-primary [&.swiper-button-lock]:hidden"
+                  type="button"
+                  aria-label="Попередній слайд">
+                  <svg class="size-6 rotate-180 text-white/80 transition-colors group-hover:text-white">
+                    <use href="./sprites/sprite.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+                <button
+                  class="comments-next group absolute -right-16 top-1/2 z-10 flex size-[37px] -translate-y-1/2 translate-x-1/2 items-center justify-center rounded-full border border-transparent bg-typo-dark shadow-md transition-colors hover:border-primary hover:bg-primary [&.swiper-button-lock]:hidden"
+                  type="button"
+                  aria-label="Наступний слайд">
+                  <svg class="size-6 text-white/80 transition-colors group-hover:text-white">
+                    <use href="./sprites/sprite.svg#icon-arrow"></use>
+                  </svg>
+                </button>
+                <div class="comments-slider mx-auto w-full overflow-hidden">
+                  <div class="comments-slider-wrapper flex w-full">
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox href="./videos/1.mp4" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/com/1.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox href="./videos/2.mp4" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/com/2.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox href="./videos/3.mp4" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/com/3.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox href="./videos/4.mp4" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/com/4.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox href="./videos/5.mp4" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/com/5.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox href="./videos/6.mp4" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/com/6.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox href="./videos/7.MP4" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/com/7.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                      </a>
+                    </div>
+                    <div class="comments-slider-slide flex shrink-0 flex-col items-center">
+                      <a data-fslightbox href="./videos/8.MP4" class="group relative block h-full w-full overflow-hidden">
+                        <img src="./img/com/8.webp" alt="Відео коментар" class="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                        <img src="./img/time-line.svg" alt="Відео коментар" class="absolute bottom-[14px] left-[5%] w-[90%]" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pagination-comments mt-[40px] flex justify-center space-x-[20px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:border-[3px] [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:bg-primary [&>.swiper-pagination-bullet.swiper-pagination-bullet-active]:opacity-90 sm:[&>.swiper-pagination-bullet]:size-[15px] [&>.swiper-pagination-bullet]:size-[11px] [&>.swiper-pagination-bullet]:bg-gray-200 [&>.swiper-pagination-bullet]:opacity-90"></div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contacts" class="relative bg-[#111739] py-[40px] sm:py-[80px]">
+          <img src="./img/footer-bg.webp" alt="Контакти" class="absolute right-0 top-0 h-full object-cover" />
+          <div class="container relative z-10">
+            <div class="mb-[30px] sm:mb-[40px]">
+              <div class="mb-5 sm:mb-8 flex items-center gap-x-5 max-lg:justify-center">
+                <span class="block h-[1px] w-[60px] bg-primary lg:hidden"></span>
+                <h1 class="text-base font-bold uppercase text-primary sm:text-xl">Контакти</h1>
+                <span class="h-[1px] w-[60px] bg-primary"></span>
+              </div>
+              <p class=" text-base font-bold text-white max-lg:text-center  sm:text-4xl">Замовляйте водійські права з гарантією.</p>
+            </div>
+            <div class="flex flex-col items-center justify-between gap-x-10 lg:flex-row">
+              <div>
+                <p class="mb-5 text-lg font-bold text-primary sm:text-3xl">Швидко потрібні права?</p>
+                <ul class="list-disc space-y-3 marker:text-primary pl-4">
+                  <li class="text-base text-white sm:text-xl">Без попередньої оплати</li>
+                  <li class="text-base text-white sm:text-xl">Швидко та зручно</li>
+                  <li class="text-base text-white sm:text-xl">Отримання у відділенні пошти</li>
+                </ul>
+              </div>
+              <div class="mt-5 flex flex-col gap-x-[35px] gap-y-5 sm:mt-[35px] sm:flex-row max-sm:w-full">
+                <a
+                  href="#"
+                  class="group inline-flex h-[60px] max-sm:w-full items-center  max-sm:border-white max-sm:text-white justify-center space-x-2.5 rounded-[10px] border border-primary bg-primary/0 px-[10px] text-sm text-primary transition-colors hover:bg-primary hover:text-white sm:h-[72px] sm:px-[27px] sm:text-lg">
+                  <span>Замовити через Telegram</span>
+                  <svg class="size-6 text-primary transition-colors group-hover:text-white max-sm:text-white">
+                    <use href="./sprites/sprite.svg#icon-tg"></use>
+                  </svg>
+                </a>
+                <a
+                  href="#"
+                  class="group inline-flex h-[60px] max-sm:w-full items-center max-sm:border-white max-sm:text-white justify-center space-x-2.5 rounded-[10px] border border-primary bg-primary/0 px-[10px] text-sm text-primary transition-colors hover:bg-primary hover:text-white sm:h-[72px] sm:px-[27px] sm:text-lg">
+                  <span>Замовити через Viber</span>
+                  <svg class="size-6 text-primary transition-colors  group-hover:text-white max-sm:text-white">
+                    <use href="./sprites/sprite.svg#icon-vb"></use>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      @@include('components/footer.html', { }) @@include('components/modal.html', { })
+    </div>
+    <script type="module" crossorigin src="./js/app.min.js"></script>
+  </body>
+</html>
